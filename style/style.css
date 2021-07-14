@@ -1,0 +1,418 @@
+/* Google-font-poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*-----------------
+    common style 
+ -----------------*/
+ body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+ main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    margin-top: 50px;
+}
+ /* ----------------
+    header style 
+ ------------------*/
+ .header{
+    width: 100%;
+    height: 677px;
+    background-color: #2D25A0;
+ }
+ .header-item{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     margin: 80px 200px;
+     grid-column-gap: 40px;
+ }
+ .section-title{
+     font-size: 64px;
+     font-weight: 700;
+     padding: -1px 40px;
+     color: #fff;
+     margin-left: 40px;
+ }
+ .click-button{
+     font-size: 16px;
+     padding: 10px 35px;
+     background-color: #E02C6D;
+     color: #fff;
+     border-radius: 5px;
+     margin-left: 40px;
+ }
+ .click-button:hover{
+     background-color: rgba(0, 0, 0, 0.233);
+ }
+ .title a{
+     text-decoration: none;
+ }
+ .fas.arrow{
+     margin-left: 10px;
+     font-weight: 600;
+ }
+ .section-banner img{
+     width: 556px;
+     height: 438px;
+ }
+ .section-banner:hover {
+    transform: scale(1.3);
+    transition: transform 2s ease-in;
+}
+ 
+ /*----------------
+ players style
+ ------------------*/
+ .players{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-row-gap: 25px;
+     grid-column-gap: 30px;
+ }
+ .player{
+    width: 330px;
+    height: 460px;
+    box-shadow: 0px 0px 40px #d3d2d2;
+}
+ .player img{
+    width: 300px;
+    height: 256px;
+    margin-left: 15px;
+    margin-top: 10px;
+ }
+ .player-name{
+     font-size: 28px;
+     font-weight: 700;
+     font-style: bold;
+     margin: 10px 0px 10px 15px;
+ }
+ .player p{
+     font-size: 16px;
+     color: #6C6C6C;
+     padding: 0 12px;
+ }
+ /*--------------------------
+   Highlights section
+  -------------------------- */
+  .highlights{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      flex-direction: column;
+      margin: 100px 0px;
+      grid-row-gap: 25px;
+      grid-column-gap: 30px;
+  }
+  .left-content{
+    width: 469px;
+    height: 309px;
+    margin-left: 182px;
+  }
+  .left-content h1{
+      font-size: 48px;
+  }
+  .left-content p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: -30px;
+    margin-bottom: 24px;
+  }
+  .highlights-button{
+    font-size: 16px;
+    padding: 10px 35px;
+    background-color: #E02C6D;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .right-content{
+
+  }
+  .right-content img{
+    width: 567px;
+    height: 427px;
+  }
+ /*--------------------------
+   Copa America Photo Album
+  -------------------------- */
+  .photo-section{
+    margin-top: 20px;
+  }
+  .photo-section h1{
+      text-align: center;
+      font-size: 35px;
+  }
+  .photo-frame{
+      width: 380px;
+      height: 213px;
+      border-radius: 10px;
+      position: relative;
+      margin: 15px;
+      overflow: hidden;
+      box-shadow: 0px 0px 40px #80808063;
+  }
+  .photos{
+
+  }
+  .photos img{
+      width: 100%;
+      border-radius: 10px;
+  }
+  .photo-details{
+      position: absolute;
+      width: 380px;
+      top: 0;
+      display: none;
+  }
+  .photo-frame:hover .photo-details{
+      display: block;
+      background-color: rgba(100, 148, 237, 0.212);
+      height: 213px;
+      border-radius: 10px;
+  }
+  .photo-frame:hover .photos{
+      transform: scale(1.3);
+      transition: transform 2s ease-in-out;
+  }
+  .photo-details h3{
+    background-color: #00000038;
+    color: #ffffffb8;
+    text-align: center;
+    padding: 10px;
+  }
+  .photo-details p{
+    padding: 10px;
+    text-align: center;
+    color: #ffffffb8;
+  }
+  .photo-album{
+      display: flex;
+      flex-wrap: wrap;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+
+  }
+  /* ---------------------------
+        youtube section style 
+ -----------------------------*/
+ .video-section{
+    width: 100%;
+    height: 750px;
+   background-color: #2D25A0;
+}
+.poetry-video{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+}
+.poetry{
+   padding-left: 90px;
+}
+.youtube-section-title{
+   font-size: 42px;
+   font-weight: 700;
+   color: #fff;
+   text-align: center; 
+   padding: 30px 0; 
+}
+.poetry-title{
+   margin-top: 0px;
+   font-size: 32px;
+   color: #fff;
+   
+}
+.poetry p{
+   font-size: 20px;
+   color: #fff;
+}
+.video{
+   padding-right: 90px;
+   margin-top: 62px;
+}
+ /*--------------------------
+    footer section style
+  -------------------------- */
+  .footer-item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 100px;
+  }
+  .ft-banner img{
+      width: 482px;
+      height: 110px;
+  }
+  .fab.empty{
+      color: #AEAEAE;
+      margin-right: 10px;
+      font-size: 22px;
+  }
+  .footer-item p{
+      font-size: 18px;
+  }
+  /* --------------------
+    Media Queries
+ -------------------- */
+ @media only screen and (max-width:688px) {
+    .header{
+        width: 100%;
+        height: 660px;
+    }
+    
+    .header-item{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .header-item{
+        margin: 0;
+    }
+    .section-title{
+        font-size: 42px;
+        margin: 20px 0;
+        padding: 20px 25px 20px 30px;
+    }
+    .section-banner img{
+        width: 330px;
+        height: 260px;
+        margin: 50px 0px 50px 45px;
+    }
+
+    /*------------------
+     players style
+     ----------------- */
+     .players{
+        grid-template-columns: repeat(1, 1fr);
+     }
+/* ---------------------------
+        Copa America Photo album section style 
+ -----------------------------*/
+ .photo-album{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+}
+       /*------------------
+     highlights style
+     ----------------- */
+.highlights{
+    padding: 15px 0 45px 0;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+}
+.left-content{
+    margin-left: 110px;
+    width: 329px;
+    height: 299px;
+}
+.left-content h1{
+    font-size: 30px;
+}
+.right-content img{
+    width: 328px;
+    height: 248px;
+}
+/* ---------------------------
+        youtube section style 
+ -----------------------------*/
+ .poetry-video{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+ }
+ .video-section{
+    width: 100%;
+    height: 1200px;
+ }
+ .youtube-section-title{
+     padding: 35px;
+ }
+ .poetry{
+     text-align: center;
+     padding: 0;
+ }
+ .video{
+    padding: 0;
+ }
+ .video iframe{
+     width: 100%;
+ }
+       /*------------------
+     footer style
+     ----------------- */
+     .ft-banner img{
+        width: 365px;
+        height: 120px;
+        margin: 10px 10px;
+     }
+     .footer-item{
+         margin-bottom: 50px;
+     }
+}
+
+ /*--------------------
+     Tablet devices 
+  --------------------*/
+
+@media only screen  and (min-width: 688px) and (max-width: 992px) {
+    .header{
+        width: 100%;
+        height: 1060px;
+    }
+    .header-item{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-banner img{
+        margin-top: 70px;
+    }
+    
+    /*------------------
+     players style
+     ----------------- */
+     .players{
+        grid-template-columns: repeat(2, 1fr);
+     }
+     /* ---------------------------
+        Copa America photo album section style 
+      -----------------------------*/
+      .photo-album{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .photo-frame{
+        display: flex;
+        width: 300px;
+        height: 213px;
+    }
+    .photo-frame:hover .photo-details{
+        width: 300px;
+        height: 213px;
+    }
+    /* ---------------------------
+        youtube section style 
+      -----------------------------*/
+ .poetry-video{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+ }
+ .video-section{
+    width: 100%;
+    height: 1200px;
+ } 
+ .poetry{
+    text-align: center;
+    padding: 0;
+}
+.video{
+    padding: 0;
+ }
+ 
+
+      /*------------------
+     footer style
+     ----------------- */
+     .footer-item{
+        margin-bottom: 50px;
+    }
+}
